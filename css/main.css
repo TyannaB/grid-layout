@@ -16,29 +16,7 @@ body {
   margin: 0;
 }
 
-.grid {
-  overflow: hidden;
-}
-
-.unit {
-  width: 50%;
-  display: inline-block;
-}
-
 .img-flex {
   width: 100%;
   display: block;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .unit {
-    width: 100%;
-    display: inline-block;
-  }
-
-  img {
-    width: 100%;
-  }
-
 }
