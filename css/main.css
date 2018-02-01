@@ -5,7 +5,11 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -16,25 +20,25 @@ body {
   overflow: hidden;
 }
 
-.unit-offset-s-1-3 {
+.unit {
   width: 50%;
   display: inline-block;
 }
 
-.imgflex {
+.img-flex {
   width: 100%;
-  display:block;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
 
-.unit {
-  width: 100%;
-  display: inline-block;
-}
+  .unit {
+    width: 100%;
+    display: inline-block;
+  }
 
-img {
-  width: 100%
-}
+  img {
+    width: 100%;
+  }
 
 }
